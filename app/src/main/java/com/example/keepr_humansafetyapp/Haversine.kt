@@ -1,6 +1,5 @@
 package com.example.keepr_humansafetyapp
 import kotlin.math.*
-import kotlin.math.pow
 
 object Haversine{
     fun haversine(lat1: Double, lon1: Double, lat2: Double, lon2: Double): Double {

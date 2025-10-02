@@ -24,14 +24,13 @@
         app:layout_constraintVertical_bias="0.106" />
 
     <Button
-        android:backgroundTint="@color/transparent"
+        android:backgroundTint="@color/gradblue"
         android:id="@+id/getaudio"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:icon="@drawable/microphn"
         app:iconSize="50dp"
         android:padding="25dp"
-        android:background="@drawable/squarebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.211"
@@ -40,14 +39,13 @@
         app:layout_constraintVertical_bias="0.535" />
 
     <Button
-        app:background="@color/transparent"
+        app:backgroundTint="@color/gradblue"
         android:id="@+id/Videobtn"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:icon="@drawable/videocall"
         app:iconSize="50dp"
         android:padding="25dp"
-        android:background="@drawable/squarebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.83"
@@ -56,14 +54,13 @@
         app:layout_constraintVertical_bias="0.535" />
 
     <Button
-        app:background="@color/transparent"
+        app:backgroundTint="@color/red"
         android:id="@+id/end"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:icon="@drawable/phone"
         app:iconSize="50dp"
         android:padding="25dp"
-        android:background="@drawable/squarebutton2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
