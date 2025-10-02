@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <fragment
@@ -20,5 +20,18 @@
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="16dp"
         android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/nearestpolice"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center"
+        app:backgroundTint="@color/red"
+        app:icon="@drawable/sos"
+        app:iconSize="35dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="0.3in"
+        android:padding="12dp"
+        android:text="Find NP" />
 </FrameLayout>
 
